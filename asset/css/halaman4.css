@@ -1,0 +1,51 @@
+
+.bg-image{
+    background-image: url("../img/wlper.jpeg");
+    background-size: cover;
+    
+    
+}
+.text{
+    animation: color-change 1s infinite;
+    height: 100%
+}
+
+@keyframes color-change {
+  50% {
+    color: rgb(115, 8, 255);
+  }
+  100% {
+    color: rgb(255, 123, 0);
+    color: darkorange;
+    color: rgba(60, 255, 0, 0.966);
+    
+  }
+}
+.animated-text {
+  animation: moveText linear infinite;
+    animation: moveText 10s linear infinite;
+    
+  }
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  } 
+}
+.navbar {
+  animation: moveNavbar 10s linear infinite;
+}
+
+@keyframes moveNavbar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+

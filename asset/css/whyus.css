@@ -1,0 +1,23 @@
+.bg-image1{
+    background-image: url(/assets/image/card-1.png);
+    background-size: cover;
+    height: 250px;
+    opacity: 0.6;
+}
+.bg-image2{
+    background-image: url(/assets/image/card-2.png);
+    background-size: cover;
+    height: 250px;
+    opacity: 0.6;
+}
+.bg-image3{
+    background-image: url(/assets/image/card-3.png);
+    background-size: cover;
+    height: 250px;
+    opacity: 0.6;
+}
+.bg{
+    margin: 4px;
+    background-size: contain;
+    background-color: blue;
+}

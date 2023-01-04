@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(228, 228, 250);
+}
+.gambar{
+    background-image: url("../img/kiamat.jpg");
+    background-size: cover;
+    height: 250px;
+    opacity: 0.6;
+    width: 90%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gambar2{
+    background-image: url("../img/malaikat.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 87%;
+    opacity: 0.6;
+    margin-left: 3%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gambar3{
+    background-image: url("../img/kafir.jpg");
+    background-size: cover;
+    height: 250px;
+    opacity: 0.6;
+    width: 90%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+video {
+    width: 80%;
+    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-top: 25px;
+    margin-left: 100px;
+  }
