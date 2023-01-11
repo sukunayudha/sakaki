@@ -9,17 +9,19 @@
   <body>
     <!-- sidebar -->
     <div
-      class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[250px] overflow-y-auto text-center bg-blue-500">
+      class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[250px] overflow-y-auto text-center bg-[#4E73DF]">
       <div class="text-white-100 text-xl">
         <div class="p-2.5 mt-1 flex items-center">
-          <h1 class="font-bold text-gray-300 text-[15px] ml-3">SB 2 ADMIN 2</h1>
+          <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM96.8 314.1c-3.8-13.7 7.4-26.1 21.6-26.1H393.6c14.2 0 25.5 12.4 21.6 26.1C396.2 382 332.1 432 256 432s-140.2-50-159.2-117.9zM208.4 192c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zm92.4 25.6c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0z" /></svg>
+          <h1 class="font-bold text-gray-300 text-[15px] ml-3">SB ADMIN 2</h1>
         </div>
         <div class="my-4 bg-gray-400 h-[1px]"></div>
       </div>
       <div
         class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
         <i class="bi bi-house-door-fill"></i>
-        <span class="text-[15px] ml-2 text-gray-300 font-bold">DASHBOARD</span>
+        <img class="h-5 w-5 rounded-2xl mr-5" src="./asset/img/gauge.png" alt="Avatar">
+        <span class="text-[15px] text-gray-300 font-bold mr-5">DASHBOARD</span>
       </div>
       <div class="my-4 bg-gray-400 h-[1px]"></div>
       <div class="text-white-100 text-xl">
@@ -47,16 +49,32 @@
           <h1 class="font-bold text-gray-300 text-[15px] ml-3">Charts</h1>
         </div>
         <div class="p-2.4 mt-6 flex items-center">
-          <img class="h-5 w-5 rounded-2xl ml-2" src="./asset/img/table.png" alt="Avatar">
+          <img class="h-5 w-5  ml-2" src="./asset/img/table.png" alt="Avatar">
           <h1 class="font-bold text-gray-300 text-[15px] ml-3">Tables</h1>
         </div>
         <div class="my-4 bg-gray-400 h-[1px]"></div>
         <img class="h-10 w-10 rounded-2xl ml-20" src="./asset/img/next.png" alt="Avatar">   
       </div>
-      
+      <div class="w-50 h-40 bg-[#3C5DC1] rounded-lg shadow-lg my-4 mx-4">
+        <div class="p-2.4 mt-6 flex items-center">
+        <img class="h-14 w-14 rounded-2xl ml-16 mt-3" src="./asset/img/undraw_rocket.svg" alt="Avatar">
+      </div>
+      <div class="p-2.5 mt-1 flex items-center">
+        <h1 class="font-bold text-gray-400 text-[12px] -mt-4">SB Admin Pro is packed with</h1>
+      </div>
+      <div class="p-2.5 mt-1 flex items-center">
+        <h1 class="font-bold text-gray-400 text-[11px] ml-8 -mt-7">premium features,</h1>
+      </div>
+      <div class="p-2.5 mt-1 flex items-center">
+        <h1 class="font-bold text-gray-400 text-[11px] ml-4 -mt-9">components, and more!</h1>
+      </div>
+      <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full">
+        Upgrade to Pro!
+      </button>
+      </div>
     </div>
     <!-- navbar -->
-    <nav class="bg-white py-4 px-6 shadow-md">
+    <nav class="bg-white py-4 px-6 shadow-xl">
       <form class="flex ml-60">   
         <div class="relative w-1/3">
             <input type="text" id="simple-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search for.." required>
@@ -66,10 +84,77 @@
             <span class="sr-only">Search</span>
         </button>
         <button class="flex ml-auto">
+          <div class="relative">
+            <img src="./asset/img/bell.png" alt="Gambar pesan" class="w-6 h-6 mr-10 mt-2 ">
+            <div class="absolute -mt-9 ml-4 bg-red-400 text-white text-[14px] font-medium  h-5 w-5 ">3+</div>
+          </div>
+          <div class="relative">
+            <img src="./asset/img/email.png" alt="Gambar pesan" class="w-6 h-6 mr-14 mt-2 ">
+            <div class="absolute -mt-8 ml-6 bg-red-400 text-white font-medium  h-5 w-5 ">7</div>
+            <div class="h-10 w-10 -mt-8 ml-7 rotate-90 border-t border-gray-500"></div>
+          </div>
           <span class="mt-1 font-semibold text-gray-400 mr-2">sakakiyudha</span>
-          <img class="w-8 h-8 rounded-full" src="./asset/img/undraw_profile_1.svg" alt="Avatar">
-          
+          <img class="w-8 h-8 rounded-full" src="./asset/img/undraw_profile_1.svg" alt="Avatar"> 
     </form>      
     </nav>
+    <div class="ml-64 mt-7 text-gray-500 text-[30px]">
+      Dashboard
+      <div class="h-6 w-36 ml-auto -mt-9 bg-[#4E73DF] rounded-lg shadow-lg my-3 mx-5"> 
+        <img class="ml-4 w-4 h-4 "src="./asset/img/download-to-storage-drive.png" alt="icon"> 
+        <div class=" text-white text-[14px] -mt-4 ml-9">Generate Report</div>
+      </div>
+    </div>
+    <!-- dashbard -->
+    <div class="ml-64 mt-10 w-20 h-24 bg-[#3C5DC1] rounded-lg shadow-lg my-4 mx-4">
+      <div class="ml-1 mt-10 w-64 h-24 border border-gray-100 bg-white rounded-lg shadow-xl my-4 mx-4">
+        <div class="p-2.5 mt-5 flex items-center">
+          <h1 class="font-bold text-blue-800 text-[14px] ml-1 -mt-10">EARNINGS (MONTHLY)</h1>
+          <img class="w-8 h-8  ml-11" src="./asset/img/WhatsApp Image 2023-01-11 at 15.08.57.jpeg" alt="icom">
+        </div>
+        <div class="p-2.5 mt-6 flex items-center">
+          <h1 class="font-bold text-gray-500 text-[20px] ml-1 -mt-28">$40.000</h1>
+        </div>
+      </div> 
+      <div class="ml-72 -mt-10 w-20 h-24 bg-green-600 rounded-lg shadow-lg">
+        <div class="ml-1 -mt-28 mr- w-64 h-24 border border-gray-100 bg-white rounded-lg shadow-xl my-4 mx-4">
+          <div class="p-2.5 mt-5 flex items-center">
+            <h1 class="font-bold text-green-600 text-[14px] ml-1 -mt-10">EARNINGS (ANNUAL)</h1>
+            <img class="w-8 h-8  ml-11" src="./asset/img/WhatsApp Image 2023-01-11 at 15.08.53.jpeg" alt="icom">
+          </div>
+          <div class="p-2.5 mt-6 flex items-center">
+            <h1 class="font-bold text-gray-500 text-[20px] ml-1 -mt-28">$215,000</h1>
+          </div>
+        </div>
+        <div class="ml-72 -mt-10 w-20 h-24 bg-blue-400 rounded-lg shadow-lg">
+          <div class="ml-1 -mt-28 mr- w-64 h-24 border border-gray-100 bg-white rounded-lg shadow-xl my-4 mx-4">
+            <div class="p-2.5 mt-5 flex items-center">
+              <h1 class="font-bold text-blue-500 text-[14px] ml-1 -mt-10">TASKS</h1>
+              <div class="h-2 w-20 rounded-lg ml-2 mr-2 mt-5 bg-blue-400">
+                <div class="h-2 w-14 rounded-lg ml-14 mr-2 -mt-auto bg-gray-300"></div>
+              </div>
+              <img class="w-8 h-8  ml-11" src="./asset/img/WhatsApp Image 2023-01-11 at 15.08.58.jpeg" alt="icom">
+            </div>
+            <div class="p-2.5 mt-6 flex items-center">
+              <h1 class="font-bold text-gray-500 text-[20px] ml-1 -mt-28">50%</h1>
+            </div>
+          </div>
+          <div class="ml-72 -mt-10 w-20 h-24 bg-yellow-500 rounded-lg shadow-lg">
+            <div class="ml-1 -mt-28 w-60 h-24 border border-gray-100 bg-white rounded-lg shadow-xl my-4 mx-4">
+              <div class="p-2.5 mt-5 flex items-center">
+                <h1 class="font-bold text-yellow-500 text-[14px] ml-1 -mt-10">PENDING REQUESTS</h1>
+                <img class="w-8 h-8  ml-11" src="./asset/img/WhatsApp Image 2023-01-11 at 15.08.53 (1).jpeg" alt="icom">
+              </div>
+              <div class="p-2.5 mt-6 flex items-center">
+                <h1 class="font-bold text-gray-500 text-[20px] ml-1 -mt-28">18</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- body -->
+      <div class="h-14 w-[45rem] mt-12 border border-gray-100 shadow-md bg-[#F8F9FC] ">
+        <div class="p-2.5 mt-9 flex items-center">
+          <h1 class="font-bold text-blue-500 text-[17px] ml-1 -mt-10">Earnings Overview</h1>
+      </div>
   </body>
 </html>
